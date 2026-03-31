@@ -1,0 +1,96 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        /* NAVBAR */
+        nav {
+            background: #2c7a7b;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            color: white;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* HEADER */
+        .header {
+            background: #2c7a7b;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        /* CONTAINER */
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        /* FORM */
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            background: #2c7a7b;
+            color: white;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* CONTACT INFO */
+        .info {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .info h3 {
+            color: #2c7a7b;
+        }
+
+        /* WHATSAPP BUTTON */
+        .whatsapp {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 20px;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }

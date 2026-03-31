@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Helping-heart-foundation</title>
+   <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+<!-- NAVBAR -->
+<nav>
+    <h2>Hope Haven</h2>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+<!-- HEADER -->
+<section class="header">
+    <h1>Contact Us</h1>
+    <p>We would love to hear from you</p>
+</section>
+
+<!-- CONTENT -->
+<div class="container">
+
+    <!-- FORM -->
+    <form onsubmit="handleSubmit(event)">
+        <h2>Send Us a Message</h2>
+
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <!-- CONTACT INFO -->
+    <div class="info">
+        <h2>Get In Touch</h2>
+
+        <h3></h3> Nairobi</h3>
+        <p>Ngong-road, Kenya</p>
+
+        <h3>Phone</h3>
+        <p>+254 769 021 360</p>
+        <p>+254 710 827 110</p>
+        <p>+254 743 769 189</p>
+        <p>+254 758 950 080</p>
+        <h3></h3>Email</h3>
+        <p>helpingheartfoundation@gmail.com</p>
+
+        <h3>WhatsApp</h3>
+        <a class="whatsapp" href="https://wa.me/254769021360//254710827110//254743769189//254758950080" target="_blank">
+            Chat on WhatsApp
+        </a>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Hope Haven Orphanage</p>
+</footer>
+
+<!-- SIMPLE FORM SCRIPT -->
+<script>
+function handleSubmit(e) {
+    e.preventDefault();
+    alert("Thank you! Your message has been sent.");
+}
+</script>
+
+</body>
+</html>
