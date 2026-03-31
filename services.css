@@ -1,8 +1,23 @@
 body {
+    nav {
+            background: #2c7a7b;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
             font-family: Arial, sans-serif;
             margin: 0;
             line-height: 1.6;
-            background-color: #f9f9f9;
+            background-color: (#f9f9f9);
         }
 
         header {
@@ -94,3 +109,4 @@ body {
             background: #333;
             color: white;
         }
+        
