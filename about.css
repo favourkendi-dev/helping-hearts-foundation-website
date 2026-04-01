@@ -97,9 +97,113 @@ body {
             border-radius: 5px;
         }
 
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 15px;
-        }
+         .footer {
+    background-color: #1a1a1a;
+    padding: 60px 0 20px;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-col {
+    width: 23%;
+    margin-bottom: 30px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-weight: 600;
+    position: relative;
+}
+
+/* Underline decoration */
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    background-color: #00d4ff;
+    height: 2px;
+    width: 40px;
+}
+
+.footer-col p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #bbb;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+/* Social Media Icons */
+.social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.social-links a:hover {
+    background-color: #00d4ff;
+    color: #1a1a1a;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 13px;
+    color: #777;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .footer-col {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-col {
+        width: 100%;
+    }
+}
